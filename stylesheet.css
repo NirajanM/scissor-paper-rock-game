@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+}
+.flexbox-container{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+.container h2{
+    text-align: center;
+}
+.container h5{
+    text-align: center;
+}
+.flexbox-container img{
+    height: 15vh;
+}
+.flexbox-container img:hover{
+    box-shadow: 0px 0px 26px 11px rgba(115,107,191,1);
+}
+#title{
+    text-align: center;
+    min-height: 2rem;
+}
+footer{
+    text-align: center;
+    min-height: 2rem;
+}

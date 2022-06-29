@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scissor paper rock</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="title">
+        <h2>Rock,Paper,Scissor</h2>
+        <span id="hide-this">choose one:</span>
+      </div>
+      <div id="lastNote"></div>
+      <div class="flexbox-container" id="flex-result">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl-7YpQjI6vqg_nG8dXm4BbwQYeSNXVxLgnw&usqp=CAU"
+          alt="rock"
+          class="rock"
+          id="rock"
+          onclick="humanChoice(this)"
+        />
+        <img
+          src="https://www.pinclipart.com/picdir/big/51-511436_rock-paper-scissors-dell-clipart.png"
+          alt="paper"
+          class="paper"
+          id="paper"
+          onclick="humanChoice(this)"
+        />
+        <img
+          src="https://adsk3003.github.io/Rock_paper_scissors/img/scissors.png"
+          alt="scissor"
+          class="scissor"
+          id="scissor"
+          onclick="humanChoice(this)"
+        />
+      </div>
+      <footer>
+        <h1>by Nirajan Malla</h1>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
