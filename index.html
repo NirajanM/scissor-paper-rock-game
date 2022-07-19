@@ -13,37 +13,49 @@
   <body>
     <div class="container">
       <div id="title">
-        <h2>Rock,Paper,Scissor</h2>
+        <h2>Scissor, Paper, Rock</h2>
       </div>
       <div>
       <div id="lastNote"></div>
-      <span id="hide-this">choose one:</span>
+      <p id="hide-this">choose one:</p>
       <div class="flexbox-container" id="flex-result">
-        <img
+        <figure>
+          <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl-7YpQjI6vqg_nG8dXm4BbwQYeSNXVxLgnw&usqp=CAU"
           alt="rock"
           class="rock"
           id="rock"
           onclick="humanChoice(this)"
+          title="rock"
         />
-        <img
+        </figure>
+        <figure>
+          <img
           src="https://www.pinclipart.com/picdir/big/51-511436_rock-paper-scissors-dell-clipart.png"
           alt="paper"
           class="paper"
           id="paper"
           onclick="humanChoice(this)"
+          title="paper"
         />
-        <img
+        </figure>
+        
+        <figure>
+          <img
           src="https://adsk3003.github.io/Rock_paper_scissors/img/scissors.png"
           alt="scissor"
           class="scissor"
           id="scissor"
           onclick="humanChoice(this)"
+          title="scissor"
         />
+        </figure>
+      </div>
+      <div id="try-again">
       </div>
     </div>
       <footer>
-        <h1>by Nirajan Malla</h1>
+        <h1>By Nirajan Malla</h1>
       </footer>
     </div>
 
